@@ -113,11 +113,10 @@ hr {
 /* line 6, ../sass/_general_classes.sass */
 div.flash {
   border: 0;
-  -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
+  -moz-border-radius: 2px;
   -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
+  -o-border-radius: 2px;
   border-radius: 2px;
   background-color: #321401;
   background-color: rgba(0, 0, 0, 0.4);
@@ -188,24 +187,21 @@ p.subtitle {
 
 /* line 50, ../sass/_general_classes.sass */
 .tip {
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 2em;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 2em;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 0 0 2em;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 2em;
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 2em;
 }
 
 /* line 1, ../sass/general_classes/_modal.sass */
 div.modal {
   border: 2px solid #444444;
-  -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
-  -o-border-radius: 4px;
+  -moz-border-radius: 4px;
   -ms-border-radius: 4px;
-  -khtml-border-radius: 4px;
+  -o-border-radius: 4px;
   border-radius: 4px;
-  -moz-box-shadow: 0.1em 0.2em 2em rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0.1em 0.2em 2em rgba(0, 0, 0, 0.5);
-  -o-box-shadow: 0.1em 0.2em 2em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0.1em 0.2em 2em rgba(0, 0, 0, 0.5);
   box-shadow: 0.1em 0.2em 2em rgba(0, 0, 0, 0.5);
 }
 /* line 5, ../sass/general_classes/_modal.sass */
@@ -215,7 +211,6 @@ div.modal h3.title {
   background: #666666 -webkit-linear-gradient(top, #777777, #444444);
   background: #666666 -moz-linear-gradient(top, #777777, #444444);
   background: #666666 -o-linear-gradient(top, #777777, #444444);
-  background: #666666 -ms-linear-gradient(top, #777777, #444444);
   background: #666666 linear-gradient(top, #777777, #444444);
   font-size: 1em;
   font-weight: normal;
@@ -237,18 +232,15 @@ table.progress {
   background: #efefef -webkit-linear-gradient(top, #d5d5d5, #efefef);
   background: #efefef -moz-linear-gradient(top, #d5d5d5, #efefef);
   background: #efefef -o-linear-gradient(top, #d5d5d5, #efefef);
-  background: #efefef -ms-linear-gradient(top, #d5d5d5, #efefef);
   background: #efefef linear-gradient(top, #d5d5d5, #efefef);
   border: 0;
-  -moz-border-radius: 1em;
   -webkit-border-radius: 1em;
-  -o-border-radius: 1em;
+  -moz-border-radius: 1em;
   -ms-border-radius: 1em;
-  -khtml-border-radius: 1em;
+  -o-border-radius: 1em;
   border-radius: 1em;
-  -moz-box-shadow: inset rgba(0, 0, 0, 0.2) 1px 1px 1px;
   -webkit-box-shadow: inset rgba(0, 0, 0, 0.2) 1px 1px 1px;
-  -o-box-shadow: inset rgba(0, 0, 0, 0.2) 1px 1px 1px;
+  -moz-box-shadow: inset rgba(0, 0, 0, 0.2) 1px 1px 1px;
   box-shadow: inset rgba(0, 0, 0, 0.2) 1px 1px 1px;
   display: block;
   overflow: hidden;
@@ -274,13 +266,11 @@ table.progress tr td.closed {
   background: #339933 -webkit-linear-gradient(top, #40bf40, #339933);
   background: #339933 -moz-linear-gradient(top, #40bf40, #339933);
   background: #339933 -o-linear-gradient(top, #40bf40, #339933);
-  background: #339933 -ms-linear-gradient(top, #40bf40, #339933);
   background: #339933 linear-gradient(top, #40bf40, #339933);
   border-bottom: 1px solid #267326;
   border-top: 1px solid #40bf40;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.5em;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.5em;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.5em;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.5em;
   box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.5em;
   float: left;
 }
@@ -292,13 +282,11 @@ table.progress tr td.done {
   background: #8fbc8f -webkit-linear-gradient(top, #afcfaf, #8fbc8f);
   background: #8fbc8f -moz-linear-gradient(top, #afcfaf, #8fbc8f);
   background: #8fbc8f -o-linear-gradient(top, #afcfaf, #8fbc8f);
-  background: #8fbc8f -ms-linear-gradient(top, #afcfaf, #8fbc8f);
   background: #8fbc8f linear-gradient(top, #afcfaf, #8fbc8f);
   border-bottom: 1px solid #70a970;
   border-top: 1px solid #afcfaf;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.5em;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.5em;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.5em;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.5em;
   box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.5em;
   float: left;
 }
@@ -350,9 +338,8 @@ table.progress tr td.todo {
 }
 /* line 65, ../sass/_layout.sass */
 #top-menu #account a:active, #top-menu #loggedas a:active {
-  -moz-box-shadow: none;
   -webkit-box-shadow: none;
-  -o-box-shadow: none;
+  -moz-box-shadow: none;
   box-shadow: none;
 }
 /* line 67, ../sass/_layout.sass */
@@ -362,9 +349,8 @@ table.progress tr td.todo {
 /* line 69, ../sass/_layout.sass */
 #top-menu #account ul {
   background: none;
-  -moz-box-shadow: none;
   -webkit-box-shadow: none;
-  -o-box-shadow: none;
+  -moz-box-shadow: none;
   box-shadow: none;
   margin-left: auto;
   margin-right: auto;
@@ -398,22 +384,19 @@ table.progress tr td.todo {
   padding: 0;
   overflow: hidden;
   *zoom: 1;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
   box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
   background: #666666 url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzc3Nzc3NyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQ0NDQ0NCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background: #666666 -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #777777), color-stop(100%, #444444));
   background: #666666 -webkit-linear-gradient(top, #777777, #444444);
   background: #666666 -moz-linear-gradient(top, #777777, #444444);
   background: #666666 -o-linear-gradient(top, #777777, #444444);
-  background: #666666 -ms-linear-gradient(top, #777777, #444444);
   background: #666666 linear-gradient(top, #777777, #444444);
-  -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
-  -o-border-radius: 4px;
+  -moz-border-radius: 4px;
   -ms-border-radius: 4px;
-  -khtml-border-radius: 4px;
+  -o-border-radius: 4px;
   border-radius: 4px;
   float: left;
   overflow: visible;
@@ -448,30 +431,18 @@ table.progress tr td.todo {
 #top-menu ul li:first-child a {
   -moz-border-radius-topleft: 4px;
   -webkit-border-top-left-radius: 4px;
-  -o-border-top-left-radius: 4px;
-  -ms-border-top-left-radius: 4px;
-  -khtml-border-top-left-radius: 4px;
   border-top-left-radius: 4px;
   -moz-border-radius-bottomleft: 4px;
   -webkit-border-bottom-left-radius: 4px;
-  -o-border-bottom-left-radius: 4px;
-  -ms-border-bottom-left-radius: 4px;
-  -khtml-border-bottom-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
 /* line 24, ../sass/_layout.sass */
 #top-menu ul li:last-child a {
   -moz-border-radius-topright: 4px;
   -webkit-border-top-right-radius: 4px;
-  -o-border-top-right-radius: 4px;
-  -ms-border-top-right-radius: 4px;
-  -khtml-border-top-right-radius: 4px;
   border-top-right-radius: 4px;
   -moz-border-radius-bottomright: 4px;
   -webkit-border-bottom-right-radius: 4px;
-  -o-border-bottom-right-radius: 4px;
-  -ms-border-bottom-right-radius: 4px;
-  -khtml-border-bottom-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
 /* line 26, ../sass/_layout.sass */
@@ -490,9 +461,8 @@ table.progress tr td.todo {
   border-top: 1px solid rgba(0, 0, 0, 0.3);
   border-right: 1px solid rgba(200, 200, 200, 0.3);
   border-bottom: 1px solid rgba(200, 200, 200, 0.3);
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
 }
 
@@ -504,22 +474,19 @@ table.progress tr td.todo {
   padding: 0;
   overflow: hidden;
   *zoom: 1;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
   box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
   background: #666666 url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzc3Nzc3NyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQ0NDQ0NCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background: #666666 -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #777777), color-stop(100%, #444444));
   background: #666666 -webkit-linear-gradient(top, #777777, #444444);
   background: #666666 -moz-linear-gradient(top, #777777, #444444);
   background: #666666 -o-linear-gradient(top, #777777, #444444);
-  background: #666666 -ms-linear-gradient(top, #777777, #444444);
   background: #666666 linear-gradient(top, #777777, #444444);
-  -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
-  -o-border-radius: 4px;
+  -moz-border-radius: 4px;
   -ms-border-radius: 4px;
-  -khtml-border-radius: 4px;
+  -o-border-radius: 4px;
   border-radius: 4px;
   float: left;
   overflow: visible;
@@ -560,30 +527,18 @@ table.progress tr td.todo {
 .project_selector li:first-child a {
   -moz-border-radius-topleft: 4px;
   -webkit-border-top-left-radius: 4px;
-  -o-border-top-left-radius: 4px;
-  -ms-border-top-left-radius: 4px;
-  -khtml-border-top-left-radius: 4px;
   border-top-left-radius: 4px;
   -moz-border-radius-bottomleft: 4px;
   -webkit-border-bottom-left-radius: 4px;
-  -o-border-bottom-left-radius: 4px;
-  -ms-border-bottom-left-radius: 4px;
-  -khtml-border-bottom-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
 /* line 24, ../sass/_layout.sass */
 .project_selector li:last-child a {
   -moz-border-radius-topright: 4px;
   -webkit-border-top-right-radius: 4px;
-  -o-border-top-right-radius: 4px;
-  -ms-border-top-right-radius: 4px;
-  -khtml-border-top-right-radius: 4px;
   border-top-right-radius: 4px;
   -moz-border-radius-bottomright: 4px;
   -webkit-border-bottom-right-radius: 4px;
-  -o-border-bottom-right-radius: 4px;
-  -ms-border-bottom-right-radius: 4px;
-  -khtml-border-bottom-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
 /* line 26, ../sass/_layout.sass */
@@ -602,9 +557,8 @@ table.progress tr td.todo {
   border-top: 1px solid rgba(0, 0, 0, 0.3);
   border-right: 1px solid rgba(200, 200, 200, 0.3);
   border-bottom: 1px solid rgba(200, 200, 200, 0.3);
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
 }
 /* line 103, ../sass/_layout.sass */
@@ -630,28 +584,24 @@ table.progress tr td.todo {
   padding: 0;
   overflow: hidden;
   *zoom: 1;
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
   box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
   background: #666666 url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzc3Nzc3NyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQ0NDQ0NCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background: #666666 -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #777777), color-stop(100%, #444444));
   background: #666666 -webkit-linear-gradient(top, #777777, #444444);
   background: #666666 -moz-linear-gradient(top, #777777, #444444);
   background: #666666 -o-linear-gradient(top, #777777, #444444);
-  background: #666666 -ms-linear-gradient(top, #777777, #444444);
   background: #666666 linear-gradient(top, #777777, #444444);
-  -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
-  -o-border-radius: 4px;
+  -moz-border-radius: 4px;
   -ms-border-radius: 4px;
-  -khtml-border-radius: 4px;
+  -o-border-radius: 4px;
   border-radius: 4px;
   float: left;
   overflow: visible;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 9px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 9px;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 0 0 9px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 9px;
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 9px;
   border: 0;
   float: none;
@@ -693,30 +643,18 @@ table.progress tr td.todo {
 .project_selector ul.projects li:first-child a {
   -moz-border-radius-topleft: 4px;
   -webkit-border-top-left-radius: 4px;
-  -o-border-top-left-radius: 4px;
-  -ms-border-top-left-radius: 4px;
-  -khtml-border-top-left-radius: 4px;
   border-top-left-radius: 4px;
   -moz-border-radius-bottomleft: 4px;
   -webkit-border-bottom-left-radius: 4px;
-  -o-border-bottom-left-radius: 4px;
-  -ms-border-bottom-left-radius: 4px;
-  -khtml-border-bottom-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
 /* line 24, ../sass/_layout.sass */
 .project_selector ul.projects li:last-child a {
   -moz-border-radius-topright: 4px;
   -webkit-border-top-right-radius: 4px;
-  -o-border-top-right-radius: 4px;
-  -ms-border-top-right-radius: 4px;
-  -khtml-border-top-right-radius: 4px;
   border-top-right-radius: 4px;
   -moz-border-radius-bottomright: 4px;
   -webkit-border-bottom-right-radius: 4px;
-  -o-border-bottom-right-radius: 4px;
-  -ms-border-bottom-right-radius: 4px;
-  -khtml-border-bottom-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
 /* line 26, ../sass/_layout.sass */
@@ -735,9 +673,8 @@ table.progress tr td.todo {
   border-top: 1px solid rgba(0, 0, 0, 0.3);
   border-right: 1px solid rgba(200, 200, 200, 0.3);
   border-bottom: 1px solid rgba(200, 200, 200, 0.3);
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
 }
 /* line 127, ../sass/_layout.sass */
@@ -746,11 +683,10 @@ table.progress tr td.todo {
 }
 /* line 129, ../sass/_layout.sass */
 .project_selector ul.projects li a {
-  -moz-border-radius: 0;
   -webkit-border-radius: 0;
-  -o-border-radius: 0;
+  -moz-border-radius: 0;
   -ms-border-radius: 0;
-  -khtml-border-radius: 0;
+  -o-border-radius: 0;
   border-radius: 0;
   white-space: nowrap;
 }
@@ -838,19 +774,17 @@ table.progress tr td.todo {
 }
 /* line 173, ../sass/_layout.sass */
 #header #quick-search input {
-  -moz-border-radius: 1em;
   -webkit-border-radius: 1em;
-  -o-border-radius: 1em;
+  -moz-border-radius: 1em;
   -ms-border-radius: 1em;
-  -khtml-border-radius: 1em;
+  -o-border-radius: 1em;
   border-radius: 1em;
   border-top: 1px solid #848484;
   border-right: 1px solid #c1c1c1;
   border-bottom: 1px solid #e1e1e1;
   border-left: 1px solid #c1c1c1;
-  -moz-box-shadow: inset rgba(0, 0, 0, 0.2) 1px 1px 2px;
   -webkit-box-shadow: inset rgba(0, 0, 0, 0.2) 1px 1px 2px;
-  -o-box-shadow: inset rgba(0, 0, 0, 0.2) 1px 1px 2px;
+  -moz-box-shadow: inset rgba(0, 0, 0, 0.2) 1px 1px 2px;
   box-shadow: inset rgba(0, 0, 0, 0.2) 1px 1px 2px;
   display: inline;
   margin: 0;
@@ -864,17 +798,15 @@ table.progress tr td.todo {
 
 /* line 188, ../sass/_layout.sass */
 #main {
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
   box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
   background: white;
   border: 1px solid #e4e4ef;
-  -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
-  -o-border-radius: 4px;
+  -moz-border-radius: 4px;
   -ms-border-radius: 4px;
-  -khtml-border-radius: 4px;
+  -o-border-radius: 4px;
   border-radius: 4px;
   clear: both;
   margin: 0;
@@ -897,13 +829,11 @@ table.progress tr td.todo {
   background: url("../images/sidebar_separator.png") 0 100% no-repeat, -webkit-linear-gradient(center top, #efefef 50%, #ffffff) repeat scroll 0 0 transparent;
   background: url("../images/sidebar_separator.png") 0 100% no-repeat, -moz-linear-gradient(center top, #efefef 50%, #ffffff) repeat scroll 0 0 transparent;
   background: url("../images/sidebar_separator.png") 0 100% no-repeat, -o-linear-gradient(center top, #efefef 50%, #ffffff) repeat scroll 0 0 transparent;
-  background: url("../images/sidebar_separator.png") 0 100% no-repeat, -ms-linear-gradient(center top, #efefef 50%, #ffffff) repeat scroll 0 0 transparent;
   background: url("../images/sidebar_separator.png") 0 100% no-repeat, linear-gradient(center top, #efefef 50%, #ffffff) repeat scroll 0 0 transparent;
-  -moz-border-radius: 0 0 4px 0;
   -webkit-border-radius: 0 0 4px 0;
-  -o-border-radius: 0 0 4px 0;
+  -moz-border-radius: 0 0 4px 0;
   -ms-border-radius: 0 0 4px 0;
-  -khtml-border-radius: 0 0 4px 0;
+  -o-border-radius: 0 0 4px 0;
   border-radius: 0 0 4px 0;
   float: right;
   padding: 18px;
@@ -939,17 +869,14 @@ table.progress tr td.todo {
   background: #eeeeef -webkit-linear-gradient(top, #ffffff, #eeeeef);
   background: #eeeeef -moz-linear-gradient(top, #ffffff, #eeeeef);
   background: #eeeeef -o-linear-gradient(top, #ffffff, #eeeeef);
-  background: #eeeeef -ms-linear-gradient(top, #ffffff, #eeeeef);
   background: #eeeeef linear-gradient(top, #ffffff, #eeeeef);
-  -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
+  -moz-border-radius: 2px;
   -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
+  -o-border-radius: 2px;
   border-radius: 2px;
-  -moz-box-shadow: inset white 0 0 1em;
   -webkit-box-shadow: inset white 0 0 1em;
-  -o-box-shadow: inset white 0 0 1em;
+  -moz-box-shadow: inset white 0 0 1em;
   box-shadow: inset white 0 0 1em;
   border: 1px solid #e4e4ef;
   margin: 9px 0;
@@ -975,11 +902,10 @@ table.progress tr td.todo {
   background: black;
   background: rgba(0, 0, 0, 0.5);
   border: 0;
-  -moz-border-radius: 1em;
   -webkit-border-radius: 1em;
-  -o-border-radius: 1em;
+  -moz-border-radius: 1em;
   -ms-border-radius: 1em;
-  -khtml-border-radius: 1em;
+  -o-border-radius: 1em;
   border-radius: 1em;
   color: white;
   display: block;
@@ -1026,15 +952,13 @@ form input[type=checkbox] {
 /* line 19, ../sass/_forms.sass */
 form input[type=password], form input[type=text], form textarea {
   border: 1px solid #888888;
-  -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
+  -moz-border-radius: 2px;
   -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
+  -o-border-radius: 2px;
   border-radius: 2px;
-  -moz-box-shadow: inset rgba(0, 0, 0, 0.2) 1px 1px 2px;
   -webkit-box-shadow: inset rgba(0, 0, 0, 0.2) 1px 1px 2px;
-  -o-box-shadow: inset rgba(0, 0, 0, 0.2) 1px 1px 2px;
+  -moz-box-shadow: inset rgba(0, 0, 0, 0.2) 1px 1px 2px;
   box-shadow: inset rgba(0, 0, 0, 0.2) 1px 1px 2px;
   padding: 4px;
 }
@@ -1055,9 +979,8 @@ form input[type=submit] {
 }
 /* line 35, ../sass/_forms.sass */
 form input[type=submit]:focus, form input[type=submit]:hover {
-  -moz-box-shadow: #a2c2e2 0 0 9px;
   -webkit-box-shadow: #a2c2e2 0 0 9px;
-  -o-box-shadow: #a2c2e2 0 0 9px;
+  -moz-box-shadow: #a2c2e2 0 0 9px;
   box-shadow: #a2c2e2 0 0 9px;
 }
 /* line 37, ../sass/_forms.sass */
@@ -1094,17 +1017,14 @@ fieldset {
   background: #eeeeef -webkit-linear-gradient(top, #ffffff, #eeeeef);
   background: #eeeeef -moz-linear-gradient(top, #ffffff, #eeeeef);
   background: #eeeeef -o-linear-gradient(top, #ffffff, #eeeeef);
-  background: #eeeeef -ms-linear-gradient(top, #ffffff, #eeeeef);
   background: #eeeeef linear-gradient(top, #ffffff, #eeeeef);
-  -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
+  -moz-border-radius: 2px;
   -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
+  -o-border-radius: 2px;
   border-radius: 2px;
-  -moz-box-shadow: inset white 0 0 1em;
   -webkit-box-shadow: inset white 0 0 1em;
-  -o-box-shadow: inset white 0 0 1em;
+  -moz-box-shadow: inset white 0 0 1em;
   box-shadow: inset white 0 0 1em;
   border: 1px solid #e4e4ef;
   margin: 9px 0;
@@ -1143,9 +1063,8 @@ fieldset p {
 .box fieldset {
   border: 0;
   background: none;
-  -moz-box-shadow: none;
   -webkit-box-shadow: none;
-  -o-box-shadow: none;
+  -moz-box-shadow: none;
   box-shadow: none;
   margin: 0;
   padding: 0;
@@ -1281,11 +1200,10 @@ form fieldset table {
 /* line 5, ../sass/_sidebar.sass */
 #sidebar li a.selected {
   background-color: #666666;
-  -moz-border-radius: 1em;
   -webkit-border-radius: 1em;
-  -o-border-radius: 1em;
+  -moz-border-radius: 1em;
   -ms-border-radius: 1em;
-  -khtml-border-radius: 1em;
+  -o-border-radius: 1em;
   border-radius: 1em;
   padding-left: 1em;
   text-decoration: none;
@@ -1360,25 +1278,17 @@ table.list th.subject {
   background: #e1e1e3 -webkit-linear-gradient(top, #eeeeef, #e1e1e3 80%, #ceced1);
   background: #e1e1e3 -moz-linear-gradient(top, #eeeeef, #e1e1e3 80%, #ceced1);
   background: #e1e1e3 -o-linear-gradient(top, #eeeeef, #e1e1e3 80%, #ceced1);
-  background: #e1e1e3 -ms-linear-gradient(top, #eeeeef, #e1e1e3 80%, #ceced1);
   background: #e1e1e3 linear-gradient(top, #eeeeef, #e1e1e3 80%, #ceced1);
-  -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
+  -moz-border-radius: 2px;
   -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
+  -o-border-radius: 2px;
   border-radius: 2px;
   -moz-border-radius-bottomleft: 0;
   -webkit-border-bottom-left-radius: 0;
-  -o-border-bottom-left-radius: 0;
-  -ms-border-bottom-left-radius: 0;
-  -khtml-border-bottom-left-radius: 0;
   border-bottom-left-radius: 0;
   -moz-border-radius-bottomright: 0;
   -webkit-border-bottom-right-radius: 0;
-  -o-border-bottom-right-radius: 0;
-  -ms-border-bottom-right-radius: 0;
-  -khtml-border-bottom-right-radius: 0;
   border-bottom-right-radius: 0;
   height: 3em;
 }
@@ -1647,31 +1557,26 @@ form .attributes th {
   background: #eeeeef -webkit-linear-gradient(top, #ffffff, #eeeeef);
   background: #eeeeef -moz-linear-gradient(top, #ffffff, #eeeeef);
   background: #eeeeef -o-linear-gradient(top, #ffffff, #eeeeef);
-  background: #eeeeef -ms-linear-gradient(top, #ffffff, #eeeeef);
   background: #eeeeef linear-gradient(top, #ffffff, #eeeeef);
-  -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
+  -moz-border-radius: 2px;
   -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
+  -o-border-radius: 2px;
   border-radius: 2px;
-  -moz-box-shadow: inset white 0 0 1em;
   -webkit-box-shadow: inset white 0 0 1em;
-  -o-box-shadow: inset white 0 0 1em;
+  -moz-box-shadow: inset white 0 0 1em;
   box-shadow: inset white 0 0 1em;
   border: 1px solid #e4e4ef;
   margin: 9px 0;
   padding: 18px;
   border: none;
-  -moz-border-radius: 0;
   -webkit-border-radius: 0;
-  -o-border-radius: 0;
+  -moz-border-radius: 0;
   -ms-border-radius: 0;
-  -khtml-border-radius: 0;
+  -o-border-radius: 0;
   border-radius: 0;
-  -moz-box-shadow: none;
   -webkit-box-shadow: none;
-  -o-box-shadow: none;
+  -moz-box-shadow: none;
   box-shadow: none;
   margin: 18px 0;
   padding: 0;
@@ -1695,17 +1600,14 @@ form .attributes th {
   background: #eeeeef -webkit-linear-gradient(top, #ffffff, #eeeeef);
   background: #eeeeef -moz-linear-gradient(top, #ffffff, #eeeeef);
   background: #eeeeef -o-linear-gradient(top, #ffffff, #eeeeef);
-  background: #eeeeef -ms-linear-gradient(top, #ffffff, #eeeeef);
   background: #eeeeef linear-gradient(top, #ffffff, #eeeeef);
-  -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
+  -moz-border-radius: 2px;
   -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
+  -o-border-radius: 2px;
   border-radius: 2px;
-  -moz-box-shadow: inset white 0 0 1em;
   -webkit-box-shadow: inset white 0 0 1em;
-  -o-box-shadow: inset white 0 0 1em;
+  -moz-box-shadow: inset white 0 0 1em;
   box-shadow: inset white 0 0 1em;
   border: 1px solid #e4e4ef;
   margin: 9px 0;
@@ -1774,6 +1676,32 @@ table .priority-9 {
 table .priority-10 {
   background: #ffdbdb;
   color: #cc3333;
+}
+
+/* line 97, ../sass/page_specific/_issues.sass */
+#watchers img.gravatar {
+  float: left;
+}
+/* line 99, ../sass/page_specific/_issues.sass */
+#watchers a.user {
+  float: left;
+  margin-left: 6px;
+}
+/* line 102, ../sass/page_specific/_issues.sass */
+#watchers a.delete {
+  float: right;
+}
+/* line 104, ../sass/page_specific/_issues.sass */
+#watchers li {
+  clear: both;
+  padding: 0.25em 0;
+}
+/* line 107, ../sass/page_specific/_issues.sass */
+#watchers .contextual {
+  top: -0.5em;
+  padding: 3px;
+  margin-right: 0;
+  position: relative;
 }
 
 /* line 4, ../sass/page_specific/_reports.sass */
@@ -1858,15 +1786,13 @@ table.entries td.checkbox {
   }
   /* line 13, ../sass/responsive/_small_screens.sass */
   #top-menu ul {
-    -moz-border-radius: 0;
     -webkit-border-radius: 0;
-    -o-border-radius: 0;
+    -moz-border-radius: 0;
     -ms-border-radius: 0;
-    -khtml-border-radius: 0;
+    -o-border-radius: 0;
     border-radius: 0;
-    -moz-box-shadow: none;
     -webkit-box-shadow: none;
-    -o-box-shadow: none;
+    -moz-box-shadow: none;
     box-shadow: none;
     width: 100%;
   }
@@ -1884,21 +1810,19 @@ table.entries td.checkbox {
   /* line 24, ../sass/responsive/_small_screens.sass */
   #top-menu ul li:first-child a {
     border-left: 0;
-    -moz-border-radius: 0;
     -webkit-border-radius: 0;
-    -o-border-radius: 0;
+    -moz-border-radius: 0;
     -ms-border-radius: 0;
-    -khtml-border-radius: 0;
+    -o-border-radius: 0;
     border-radius: 0;
   }
   /* line 27, ../sass/responsive/_small_screens.sass */
   #top-menu ul li:last-child a {
     border-right: 0;
-    -moz-border-radius: 0;
     -webkit-border-radius: 0;
-    -o-border-radius: 0;
+    -moz-border-radius: 0;
     -ms-border-radius: 0;
-    -khtml-border-radius: 0;
+    -o-border-radius: 0;
     border-radius: 0;
   }
 
@@ -1931,15 +1855,13 @@ table.entries td.checkbox {
   /* line 43, ../sass/responsive/_small_screens.sass */
   #main {
     border: 0;
-    -moz-border-radius: 0;
     -webkit-border-radius: 0;
-    -o-border-radius: 0;
+    -moz-border-radius: 0;
     -ms-border-radius: 0;
-    -khtml-border-radius: 0;
+    -o-border-radius: 0;
     border-radius: 0;
-    -moz-box-shadow: none;
     -webkit-box-shadow: none;
-    -o-box-shadow: none;
+    -moz-box-shadow: none;
     box-shadow: none;
   }
   /* line 47, ../sass/responsive/_small_screens.sass */
