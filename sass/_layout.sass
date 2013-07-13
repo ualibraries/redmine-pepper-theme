@@ -92,7 +92,7 @@
 
 // Submenu for project selection
 .project_selector
-  $selector_height: 1.96em // make it roughly the height of #header h1
+  $selector_height: 35px // make it roughly the height of #header h1
   +navigation
   float: left
   font-size: 12px
@@ -135,13 +135,14 @@
 #header
   background: none
   color: $text_color
-  height: auto
-  margin: $spacing*2 0 $spacing/4 0
+  min-height: inherit
+  margin: $baseline 0
   padding: 0
   h1
     float: left
-    margin: 0 $spacing/4 0 $spacing
+    margin: $baseline/2 0 $baseline $spacing
     padding: $spacing/4 0
+    padding-right: $baseline
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9)
   #main-menu
     clear: both
