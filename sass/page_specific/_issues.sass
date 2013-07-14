@@ -36,9 +36,12 @@
 div.issue
   background: none
   border: none
-  margin: ($spacing * 2) 0
+  margin: 0
   padding: 0
-
+  div.subject div div
+    padding-left: 0
+  div.subject h3
+    margin: 5.778px 0
 td div.issue
   // Don't apply massive margins when displayed inside the calendar
   margin: 0
@@ -106,3 +109,9 @@ form
     padding: 3px
     margin-right: 0
     position: relative
+
+div.issue div.subject div 
+  div > p a
+    margin-left: 1em
+  div div p a
+    margin-left: 2em

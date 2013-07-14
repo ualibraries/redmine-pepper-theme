@@ -1584,41 +1584,49 @@ table.messages tr.message td.subject {
 div.issue {
   background: none;
   border: none;
-  margin: 36px 0;
+  margin: 0;
   padding: 0;
 }
+/* line 41, ../sass/page_specific/_issues.sass */
+div.issue div.subject div div {
+  padding-left: 0;
+}
+/* line 43, ../sass/page_specific/_issues.sass */
+div.issue div.subject h3 {
+  margin: 5.778px 0;
+}
 
-/* line 42, ../sass/page_specific/_issues.sass */
+/* line 45, ../sass/page_specific/_issues.sass */
 td div.issue {
   margin: 0;
 }
 
-/* line 47, ../sass/page_specific/_issues.sass */
+/* line 50, ../sass/page_specific/_issues.sass */
 tr.issue {
   text-align: left;
 }
 
-/* line 50, ../sass/page_specific/_issues.sass */
+/* line 53, ../sass/page_specific/_issues.sass */
 table.issues th {
   white-space: normal;
 }
 
-/* line 54, ../sass/page_specific/_issues.sass */
+/* line 57, ../sass/page_specific/_issues.sass */
 table.issues td, table.issues th {
   padding: 0.5em;
 }
 
-/* line 60, ../sass/page_specific/_issues.sass */
+/* line 63, ../sass/page_specific/_issues.sass */
 form .attributes select {
   max-width: 80%;
   width: auto;
 }
-/* line 63, ../sass/page_specific/_issues.sass */
+/* line 66, ../sass/page_specific/_issues.sass */
 form .attributes th {
   padding-left: 0;
 }
 
-/* line 67, ../sass/page_specific/_issues.sass */
+/* line 70, ../sass/page_specific/_issues.sass */
 #issue-form .box {
   background-color: #eeeeef;
   background: #eeeeef url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VlZWVlZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -1651,17 +1659,17 @@ form .attributes th {
   padding: 0;
 }
 
-/* line 76, ../sass/page_specific/_issues.sass */
+/* line 79, ../sass/page_specific/_issues.sass */
 #history .journal {
   border-left: 4px solid #e4e4ef;
   padding-left: 18px;
 }
-/* line 79, ../sass/page_specific/_issues.sass */
+/* line 82, ../sass/page_specific/_issues.sass */
 #history .journal .journal-link {
   display: inline;
 }
 
-/* line 83, ../sass/page_specific/_issues.sass */
+/* line 86, ../sass/page_specific/_issues.sass */
 #update {
   background-color: #eeeeef;
   background: #eeeeef url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VlZWVlZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -1682,95 +1690,104 @@ form .attributes th {
   margin: 9px 0;
   padding: 18px;
 }
-/* line 85, ../sass/page_specific/_issues.sass */
+/* line 88, ../sass/page_specific/_issues.sass */
 #update h3 {
   margin-top: 0;
 }
 
-/* line 89, ../sass/page_specific/_issues.sass */
+/* line 92, ../sass/page_specific/_issues.sass */
 table .priority-1 {
   background: white;
   color: #333333;
 }
 
-/* line 89, ../sass/page_specific/_issues.sass */
+/* line 92, ../sass/page_specific/_issues.sass */
 table .priority-2 {
   background: #fffbfb;
   color: #443333;
 }
 
-/* line 89, ../sass/page_specific/_issues.sass */
+/* line 92, ../sass/page_specific/_issues.sass */
 table .priority-3 {
   background: #fff7f7;
   color: #553333;
 }
 
-/* line 89, ../sass/page_specific/_issues.sass */
+/* line 92, ../sass/page_specific/_issues.sass */
 table .priority-4 {
   background: #fff3f3;
   color: #663333;
 }
 
-/* line 89, ../sass/page_specific/_issues.sass */
+/* line 92, ../sass/page_specific/_issues.sass */
 table .priority-5 {
   background: #ffefef;
   color: #773333;
 }
 
-/* line 89, ../sass/page_specific/_issues.sass */
+/* line 92, ../sass/page_specific/_issues.sass */
 table .priority-6 {
   background: #ffebeb;
   color: #883333;
 }
 
-/* line 89, ../sass/page_specific/_issues.sass */
+/* line 92, ../sass/page_specific/_issues.sass */
 table .priority-7 {
   background: #ffe7e7;
   color: #993333;
 }
 
-/* line 89, ../sass/page_specific/_issues.sass */
+/* line 92, ../sass/page_specific/_issues.sass */
 table .priority-8 {
   background: #ffe3e3;
   color: #aa3333;
 }
 
-/* line 89, ../sass/page_specific/_issues.sass */
+/* line 92, ../sass/page_specific/_issues.sass */
 table .priority-9 {
   background: #ffdfdf;
   color: #bb3333;
 }
 
-/* line 89, ../sass/page_specific/_issues.sass */
+/* line 92, ../sass/page_specific/_issues.sass */
 table .priority-10 {
   background: #ffdbdb;
   color: #cc3333;
 }
 
-/* line 94, ../sass/page_specific/_issues.sass */
+/* line 97, ../sass/page_specific/_issues.sass */
 #watchers img.gravatar {
   float: left;
 }
-/* line 96, ../sass/page_specific/_issues.sass */
+/* line 99, ../sass/page_specific/_issues.sass */
 #watchers a.user {
   float: left;
   margin-left: 6px;
 }
-/* line 99, ../sass/page_specific/_issues.sass */
+/* line 102, ../sass/page_specific/_issues.sass */
 #watchers a.delete {
   float: right;
 }
-/* line 101, ../sass/page_specific/_issues.sass */
+/* line 104, ../sass/page_specific/_issues.sass */
 #watchers li {
   clear: both;
   padding: 0.25em 0;
 }
-/* line 104, ../sass/page_specific/_issues.sass */
+/* line 107, ../sass/page_specific/_issues.sass */
 #watchers .contextual {
   top: -0.5em;
   padding: 3px;
   margin-right: 0;
   position: relative;
+}
+
+/* line 114, ../sass/page_specific/_issues.sass */
+div.issue div.subject div div > p a {
+  margin-left: 1em;
+}
+/* line 116, ../sass/page_specific/_issues.sass */
+div.issue div.subject div div div p a {
+  margin-left: 2em;
 }
 
 /* line 4, ../sass/page_specific/_reports.sass */
