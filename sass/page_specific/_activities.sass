@@ -2,7 +2,28 @@
   .time
     color: $meta_color
     font-size: 0.8em
+div#activity dt.me .time
+  border-bottom: 0
 
-  dd
-    margin-bottom: 1em
-    margin-left: 1em
+div#activity dl
+  margin: 0
+  
+div#activity dt
+  padding-left: 24px
+  a
+    font-size: 16px
+    float: left
+    padding-right: 13px
+  span.time
+    font-style: italic
+    font-size: 10px
+div#activity dd 
+  margin: 0
+  +clearfix
+  padding-left: 0
+  font-size: inherit
+  span.description
+    font-style: normal
+    margin: 0.547em 0
+  span.author
+    display: none
