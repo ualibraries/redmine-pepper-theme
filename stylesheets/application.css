@@ -1212,15 +1212,20 @@ form fieldset table {
 }
 
 /* line 157, ../sass/_forms.sass */
+#users_for_watcher label {
+  text-align: left;
+}
+
+/* line 162, ../sass/_forms.sass */
 #filters table {
   margin: 0;
 }
 
-/* line 161, ../sass/_forms.sass */
+/* line 166, ../sass/_forms.sass */
 .splitcontentleft fieldset, .splitcontentright fieldset {
   margin: 0 0 18px 0;
 }
-/* line 163, ../sass/_forms.sass */
+/* line 168, ../sass/_forms.sass */
 .splitcontentleft fieldset legend, .splitcontentright fieldset legend {
   margin-top: 0;
 }
