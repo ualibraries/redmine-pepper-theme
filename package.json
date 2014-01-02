@@ -1,49 +1,17 @@
-module.exports = function(grunt) {
-
-grunt.initConfig({
-  compass: {
-      dist: {
-        options: {
-          sassDir: 'sass',
-          cssDir: 'stylesheets',
-          imagesDir: 'images',
-          environment: 'development',
-          outputStyle: 'nested',
-          relativeAssets: true,
-          //noLineComments: true
-        }
-      }
-    },
-    concat: {
-        // separator: ';',
-        // dist: {
-        //   src: ['../js/libs/jquery.flexslider.js','../js/libs/jquery.waypoints.js','../js/libs/jquery.waypoints-sticky.js','../js/libs/jquery.organictabs.js','../js/libs/jquery.reveal.js','../js/scripts.js'],
-        //   dest: '../js/scripts.js'
-        // }
-    },
-    uglify: {
-      // scripts: {
-      //   files: {
-      //     '../js/scripts.min.js' : '../js/scripts.js'
-      //   }
-      // }
-    },
-    watch: {
-      css: {
-        files: '**/*.scss',
-        tasks: ['compass']
-      },
-      scripts: {
-        files: ['<%= concat.dist.src %>'],
-        tasks: ['concat']
-      }
-    }
- });
-  grunt.loadNpmTasks('grunt-contrib-compass');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  //grunt.loadNpmTasks('grunt-contrib-concat');
- // grunt.loadNpmTasks('grunt-contrib-uglify');
- //grunt.loadNpmTasks('grunt-grunticon');
-  grunt.registerTask('default', ['compass']);
-
-};
+{
+  "name": "",
+  "version": "0.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.1"
+  },
+  "author": "Gabriel Luethje",
+  "devDependencies": {
+    "grunt-grunticon": "~0.3.3",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-watch": "~0.5.2",
+    "grunt-contrib-compass": "~0.5.0"
+  }
+}
