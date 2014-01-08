@@ -1,0 +1,17 @@
+#sidebar {
+	li {
+		a {
+			display: block;
+			&.selected {
+				background-color: $separator_color;
+				color: $text_color;
+				@include border-radius(1em);
+				padding-left: 1em;
+				text-decoration: none;
+			}
+		}
+	}
+	form br {
+		display: block;
+	}
+}

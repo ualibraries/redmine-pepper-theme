@@ -1,0 +1,111 @@
+body {
+	background: #f0f5fe url(../images/body_noise.gif);
+	color: $text_color;
+	font-family: "Droid Sans", helvetica, "helvetica neue", arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.6em;
+	margin: $baseline;
+}
+
+#wrapper {
+	background: none;
+}
+
+// Links
+a {
+	&:link {
+		color: $link_color;
+		text-decoration: underline;
+	}
+	&:visited {
+		color: $link_visited_color;
+	}
+	&:hover, &:active {
+		color: $link_hover_color;
+		text-decoration: underline;
+	}
+	img {
+		border: none;
+	}
+}
+
+// Lists
+ul, ol {
+	margin: 1em 0;
+	padding: 0;
+}
+
+ul ul, ul ol {
+	margin: 0;
+}
+
+li {
+	margin-left: 1.5em;
+	padding: 0;
+}
+
+// Headings
+h1, h2, h3 {
+	border: none;
+	font-family: "Droid Sans", "helvetica neue condensed", arial, sans-serif;
+	padding: 0;
+	line-height: 1.1em;
+}
+
+h1 {
+	font-size: 1.846em;
+}
+
+h2, .wiki h1 {
+	font-size: 1.5em;
+	margin-bottom: 13px;
+	margin-top: 19.5px;
+}
+
+h3 {
+	font-size: 1.231em;
+	margin-bottom: 8.667px;
+	margin-top: 19px;
+}
+
+p {
+	margin: 1em 0;
+}
+
+hr {
+	background: none;
+	border: none;
+	border-top: 1px solid $separator_color;
+}
+
+pre {
+	overflow: auto;
+	padding: $baseline;
+	@include border-radius($outside_border_radius / 2);
+	background: adjust-lightness($text_color, 75%);
+}
+
+#sidebar {
+	h2, h3 {
+		color: $text_color;
+	}
+	p {
+		clear: both;
+	}
+}
+
+// The subproject breadcrumb navigation
+#header {
+	h1 {
+		a.root,
+		a.ancestor {
+			color: $text_color * 3;
+			font-size: 1em;
+			text-decoration: none;
+			&:hover {
+				color: $link_hover_color;
+				text-decoration: underline;
+			}
+		}
+	}
+}

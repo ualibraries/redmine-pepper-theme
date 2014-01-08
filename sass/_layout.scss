@@ -1,0 +1,303 @@
+@mixin navigation {
+	@include navigation_list;
+	@include clearfix;
+	@include box-shadow(rgba(0, 0, 0, 0.2) 1px 1px 4px);
+	@include background(#666666 linear-gradient(top, #777777, #444444));
+	@include border-radius($outside_border_radius);
+	float: left;
+	overflow: visible;
+	li a {
+		// Colors for browsers without rgba support
+		border-left: 1px solid #7e7e7e;
+		border-top: 1px solid #7e7e7e;
+		border-right: 1px solid #424242;
+		border-bottom: 1px solid #424242;
+		// Colors for proper browsers
+		border-left: 1px solid rgba(200, 200, 200, 0.3);
+		border-top: 1px solid rgba(200, 200, 200, 0.3);
+		border-right: 1px solid rgba(0, 0, 0, 0.3);
+		border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+		padding: $spacing / 2 $spacing;
+	}
+	li:first-child a {
+		@include border-left-radius($outside_border_radius);
+	}
+	li:last-child a {
+		@include border-right-radius($outside_border_radius);
+	}
+	a {
+		color: white;
+		text-decoration: none;
+		text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px;
+		&:hover {
+			text-decoration: underline;
+		}
+		&.active, &:active {
+			// For when a menu item with a submenu has been clicked
+			border-left: 1px solid rgba(0, 0, 0, 0.3);
+			border-top: 1px solid rgba(0, 0, 0, 0.3);
+			border-right: 1px solid rgba(200, 200, 200, 0.3);
+			border-bottom: 1px solid rgba(200, 200, 200, 0.3);
+			@include box-shadow(rgba(0, 0, 0, 0.5) 0 0 1em inset);
+		}
+	}
+}
+
+#top-menu {
+	@include has-layout;
+	&:after {
+		// Clear any floats
+		content: "";
+		display: block;
+		overflow: hidden;
+		clear: both;
+	}
+	// Reset Redmine stuff
+	background: none;
+	font-size: 1em;
+	height: auto;
+	padding: 0;
+	position: relative;
+	z-index: 999;
+	a {
+		font-weight: normal;
+		margin-right: inherit;
+	}
+	#account, #loggedas {
+		position: absolute;
+		right: 0;
+		text-align: right;
+		width: auto;
+		a:active {
+			@include box-shadow(none);
+		}
+	}
+	#account {
+		bottom: 0;
+		ul {
+			background: none;
+			@include box-shadow(none);
+			margin-left: auto;
+			margin-right: auto;
+			a {
+				border: none;
+				color: $link_color;
+				display: block;
+				padding: 0;
+				padding-left: 1em;
+				text-shadow: none;
+			}
+		}
+	}
+	#loggedas {
+		border-bottom: 1px solid $separator_color;
+		color: $text_color;
+		float: right;
+		margin-right: inherit;
+		width: inherit;
+		a {
+			color: $link_color;
+		}
+	}
+	ul {
+		@include navigation;
+	}
+}
+
+// Submenu for project selection
+.project_selector {
+	$selector_height: 35px;
+	@include navigation;
+	float: left;
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 0;
+	position: relative;
+	text-shadow: none;
+	.toggle {
+		background: url(../images/iconic/gray_light/arrow_down_12x12.png) 50% 50% no-repeat;
+		height: $selector_height;
+		text-indent: -999em;
+		display: block;
+		padding: 0;
+		width: $selector_height;
+	}
+	.toggle:active, .toggle:hover, a.toggle:active, a.active {
+		background-image: url(../images/iconic/white/arrow_down_12x12.png);
+		border: 0;
+		box-shadow: none;
+	}
+	ul.projects {
+		@include navigation;
+		@include box-shadow(rgba(0, 0, 0, 0.5) 0 0 $spacing / 2);
+		border: 0;
+		float: none;
+		margin: 0;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		top: $selector_height;
+		left: 0;
+		z-index: 999;
+		li {
+			float: none;
+			a {
+				@include border-radius(0);
+				white-space: nowrap;
+			}
+			.selected:before {
+				content: "✔ ";
+			}
+		}
+	}
+}
+
+#header {
+	background: none;
+	color: $text_color;
+	min-height: inherit;
+	margin: $baseline 0;
+	padding: 0;
+	h1 {
+		float: left;
+		margin: $baseline / 2 0 $baseline $spacing;
+		padding: $spacing / 4 0;
+		padding-right: $baseline;
+		text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9);
+	}
+	#main-menu {
+		clear: both;
+		float: left;
+		margin-right: auto;
+		position: relative;
+		left: 0;
+		ul {
+			@include navigation_list;
+			margin-left: $spacing / 2;
+			li {
+				margin-right: 1px;
+			}
+			a {
+				background: none;
+				color: #333333;
+				font-weight: normal;
+				&:hover, &:active {
+					color: $link_color;
+				}
+				&.selected {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+	#quick-search {
+		text-align: right;
+		form {
+			display: block;
+			float: left;
+		}
+		a {
+			color: $text_color;
+			text-decoration: none;
+		}
+		input {
+			@include border-radius(1em);
+			border-top: 1px solid #848484;
+			border-right: 1px solid #c1c1c1;
+			border-bottom: 1px solid #e1e1e1;
+			border-left: 1px solid #c1c1c1;
+			@include box-shadow(inset rgba(0, 0, 0, 0.2) 1px 1px 2px);
+			display: inline;
+			margin: 0;
+			padding: 0.2em 1em;
+		}
+		select {
+			// The Jump to project dropdown
+			float: right;
+			width: $jump_to_project_width;
+		}
+	}
+}
+
+#main {
+	@include box-shadow(rgba(0, 0, 0, 0.2) 1px 1px 4px);
+	background: white;
+	border: 1px solid $separator_color;
+	@include border-radius($outside_border_radius);
+	clear: both;
+	margin: 0;
+	overflow: hidden;
+	#content {
+		background: white;
+		border: 0;
+		margin: $spacing $sidebar_width + $spacing * 3 $spacing $spacing;
+		min-height: 21em;
+		padding: 0;
+		width: auto;
+	}
+	#sidebar {
+		background: white url("../images/sidebar_separator.png") no-repeat 0 100%;
+		@include background(url("../images/sidebar_separator.png") 0 100% no-repeat, linear-gradient(center top, $sidebar_color 50%, white) repeat scroll 0 0 transparent);
+		@include border-radius(0 0 $outside_border_radius 0);
+		float: right;
+		padding: $spacing;
+		padding-bottom: $spacing * 4;
+		width: $sidebar_width;
+		h3:first-child {
+			color: $text_color;
+			font-size: 1.4em;
+			margin-top: 0.45em;
+		}
+		label {
+			clear: both;
+			font-weight: normal;
+			width: auto;
+		}
+	}
+	&.nosidebar {
+		#content {
+			margin-right: $spacing;
+		}
+		#sidebar {
+			display: none;
+		}
+	}
+}
+
+.box {
+	@include box;
+	h3:first-child {
+		margin-top: 0;
+	}
+}
+
+#footer {
+	background: none;
+	border: none;
+	clear: both;
+	font-size: 0.8em;
+	margin: $spacing;
+	text-align: center;
+}
+
+#ajax-indicator {
+	background: black;
+	background: rgba(0, 0, 0, 0.5);
+	border: 0;
+	@include border-radius(1em);
+	color: white;
+	display: block;
+	font-weight: normal;
+	left: 50%;
+	margin-left: -50px;
+	opacity: 1;
+	padding: 0;
+	position: fixed;
+	text-align: center;
+	top: $spacing / 2;
+	width: 100px;
+	span {
+		background: none;
+		padding: 0;
+	}
+}
