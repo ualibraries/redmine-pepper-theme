@@ -7,10 +7,10 @@ grunt.initConfig({
           sassDir: 'sass',
           cssDir: 'stylesheets',
           imagesDir: 'images',
-          environment: 'development',
-          //environment: 'production',
-          outputStyle: 'expanded',
-          //outputStyle: 'compressed',
+          //environment: 'development',
+          environment: 'production',
+          //outputStyle: 'expanded',
+          outputStyle: 'compressed',
           relativeAssets: true,
           //noLineComments: true
         }
