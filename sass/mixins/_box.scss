@@ -1,0 +1,9 @@
+@mixin box {
+	background-color: $box_background_color;
+	@include background($box_background_color linear-gradient(top, white, $box_background_color));
+	@include border-radius($outside_border_radius / 2);
+	@include box-shadow(inset white 0 0 1em);
+	border: 1px solid $separator_color;
+	margin: $spacing / 2 0;
+	padding: $spacing;
+}

@@ -1,0 +1,39 @@
+// Use the default Redmine stylesheet as a baseline
+@import url(../../../stylesheets/application.css);
+
+@import "compass/css3/border-radius",
+		"compass/css3/box-shadow",
+		"compass/css3/images",
+		"compass/utilities/general/clearfix",
+		"compass/utilities/general/hacks",
+
+		"mixins/navigation-list",
+		"mixins/box";
+
+@import url("//fonts.googleapis.com/css?family=Droid+Sans:regular,bold");
+
+@import "config/settings",
+		"config/colors",
+
+		"general_elements",
+		"general_classes",
+		"layout",
+		"forms",
+		"sidebar",
+		"tables",
+		"tabs",
+
+		"page_specific/account",
+		"page_specific/activities",
+		"page_specific/boards",
+		"page_specific/calendars",
+		"page_specific/issues",
+		"page_specific/reports",
+		"page_specific/repository",
+		"page_specific/roles",
+		"page_specific/settings",
+		"page_specific/wiki",
+
+		"responsive/small_screens",
+		"syntax";
+
