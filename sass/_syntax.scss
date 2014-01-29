@@ -26,7 +26,7 @@
 	}
 	table.filecontent tr.spacing td {
 		height: 0.4em;
-		background: #EAF2F5;
+		background: #001C24;
 	}
 	table.filecontent th.line-num{
 		border: 1px solid #002A35;
@@ -53,6 +53,21 @@
 		margin: 0px;
 		white-space: pre-wrap;
 		font-family:"Liberation Mono", Courier, monospace; font-size:12px;
+	}
+	.diff_in, .diff_out{
+		color: #ddd;
+	}
+	.diff_out{
+		background-color: #570000;
+		span{
+			background-color: #912A2A;
+		}
+	}
+	.diff_in{
+		background-color: #2E4400;
+		span{
+			background-color: #4B690A;
+		}
 	}
 }
 
